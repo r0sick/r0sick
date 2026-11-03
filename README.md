@@ -20,6 +20,7 @@ Almost 10 years managing renewable assets (wind, PV, BESS) across Spain and Euro
 |---|---|---|
 | [**Spanish spot price forecaster**]| 96 quarter-hourly D+1 forecasts of OMIE day-ahead prices; one XGBoost model per QH slot with ERA5-Land weather, gas (MIBGAS) and CO₂ features. Avg. MAE ≈ 15.8 €/MWh on 2025–26 out-of-sample data. Master's thesis (UPV). | Python · XGBoost · Optuna · pandas |
 | [**ERA5-Land weather pipeline**]| Turns raw ERA5-Land archives into capacity-weighted 15-min weather features by snapping ~3,800 Spanish plants to the grid with a KD-tree. Memory-efficient numpy (~10M rows/month). | Python · numpy · h5netcdf · SciPy |
+| [**MatchLens**](https://github.com/r0sick/matchlens) | AI match-intelligence app built for a Microsoft hackathon: turns football event data into explainable metrics, LLM-generated multi-language narratives, analyst vs. casual-fan views and a Fantasy points/transfer-advice module. | Python · Azure OpenAI · Microsoft Foundry · Web UI |
 | 🚧 *Coming soon* | Spanish solar capture price & cannibalisation tracker — live dashboard | Streamlit · GitHub Actions |
 
 ### 🛠️ Toolbox
